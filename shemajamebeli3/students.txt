@@ -1,0 +1,10 @@
+101,John,Doe,2,8.5,Math English History
+102,Jane,Smith,4,9.0,Physics Chemistry Biology
+103,Michael,Brown,1,75.0,History Geography
+104,Emily,White,4,80.0,Math ComputerScience Economics
+105,David,Lee,2,85.0,Physics Math Statistics
+106,Sarah,Johnson,3,90.0,English History Art
+107,Robert,Garcia,1,78.0,Math Physics
+108,Linda,Martinez,4,82.5,Chemistry Biology English
+109,William,Rodriguez,2,87.0,Geography History PoliticalScience
+110,Barbara,Hernandez,3,91.5,Math Economics ComputerScience

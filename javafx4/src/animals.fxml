@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="animalsController">
+   <children>
+      <RadioButton fx:id="catRadioButton" layoutX="84.0" layoutY="100.0" mnemonicParsing="false" text="კატა" />
+      <RadioButton fx:id="dogRadioButton" layoutX="199.0" layoutY="100.0" mnemonicParsing="false" text="ძაღლი" />
+      <RadioButton fx:id="rabbitRadioButton" layoutX="317.0" layoutY="100.0" mnemonicParsing="false" text="კურდღელი" />
+      <RadioButton fx:id="birdRadioButton" layoutX="465.0" layoutY="100.0" mnemonicParsing="false" text="ჩიტი" />
+      <TextField fx:id="nameField" layoutX="225.0" layoutY="200.0" />
+      <Label layoutX="155.0" layoutY="38.0" prefHeight="38.0" prefWidth="322.0" text="აირჩიე შენი შინაური ცხოველი">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="223.0" layoutY="258.0" mnemonicParsing="false" onAction="#confirmSelection" text="არჩევის დადასტურება" />
+      <Label fx:id="resultLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="103.0" layoutY="322.0" prefHeight="38.0" prefWidth="426.0" textFill="#0600ff">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

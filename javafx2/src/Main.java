@@ -12,11 +12,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage Stage) throws Exception {
-//        1 savarjisho
-//        Parent root = FXMLLoader.load(getClass().getResource("test.fxml"));
-//        Stage.setTitle("წრის მოძრაობა");
-//        Stage.setScene(new Scene(root));
-//        Stage.show();
+
+        Parent root = FXMLLoader.load(getClass().getResource("test.fxml"));
+        Stage.setTitle("წრის მოძრაობა");
+        Stage.setScene(new Scene(root));
+        Stage.show();
 
 
 
